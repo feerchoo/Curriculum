@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/unslider.js"></script>
+  </head>
+  <body>
+
+    <div id="izq">
+      <img src="img/foto1.jpg" alt="">
+      <ul class="lista">
+        <li><a href="#presentacion">Presentacion</a></li>
+        <li><a href="#formacion">Formacion</a></li>
+        <li><a href="#experiencia">Experencia</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+      </ul>
+    </div>
+    <div id="der">
+      <div  id="presentacion" class="seccion">
+        <h1>Quien soy?</h1>
+        <h2 class="titulo">Fernando Cabanillas</h2>
+        <h3>Front-End Jr.</h3>
+         <div id="ficha">
+           <ul>
+             <li class="li_datos">Nombre: Fernando Cabanillas</li>
+             <li class="li_datos">Edad: 20</li>
+             <li class="li_datos">Direccion: Correa 3780</li>
+             <li class="li_datos">Email: feercho06.7@gamil.com</li>
+             <li class="li_datos">Telefono: 11 4411 3616</li>
+             <li class="li_datos">Skype: No tengo</li>
+           </ul>
+           <p>
+             Soy una persona con ganas de progresar tanto laboralmente como social.
+             trato de superarme dia a dia. No solo busco un empleo si no una forma de crecer como pesona. Actualmente me encuentro estudiando en el 5° año de la es tecnica N° 21.
+           </p>
+         </div>
+      </div>
+      <div  id="formacion" class="seccion">
+        <h1>Formacion</h1>
+        <h2>Tecnicatura - Escuela Tecnica Fragata Libertad N° 21 D.E. 10</h1>
+        <p>
+me encuento estudiando la especialidad de construcciones para el titulo de maestro mayor de obras, o M.M.O.
+        </p>
+        <h2>Curso Acamica - Aprende Programando</h2>
+        <p>Estoy cursando la carrera de acamica "Aprende Programando"</p>
+      </div>
+      <div  id="experiencia" class="seccion">
+        <h1>Experencias</h1>
+        <p>
+          En la escuela secundaria tuve talleres relacionados con la construccion tales como Electricidad, Instalaciones sanitarias, Construciones, Herreria, Robotica, Hojalateria, Carpinteria, Maqueteria y Tecnicas constructivas.
+        </p>
+        <p>Actualmente trabajo los findes de semana en un vivero haciendo repociciones y en la caja.</p>
+      </div>
+      <div  id="portafolio" class="seccion">
+        <h1>Portafolio</h1>
+        <div class="slider">
+          <ul>
+            <li><iframe src="Noticias/telam.html" width="100%" height="450"></iframe></li>
+            <li><iframe src="rompecabezas/juego.html" width="100%" height="450"></iframe></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: true,
+        autoplay: false
+
+      });
+    });
+  </script>
+  </body>
+</html>

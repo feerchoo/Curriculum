@@ -1,0 +1,65 @@
+body {font-family: cursive;
+  background-color:rgb(122, 183, 203);
+}
+ h1 {
+   color:rgb(5, 81, 129);
+ font-size: 20px;
+border-bottom-style: groove;}
+
+h2 {color:rgb(5, 81, 129);
+font-size: 15px;
+text-transform: uppercase;
+
+}
+
+.titulo {color:rgb(5, 81, 129);
+  font-size: 35px;}
+
+
+ h3 {color:rgb(255, 0, 0);
+  font-size: 15px}
+
+.li_datos {
+  border-bottom: solid rgb(97, 98, 156) 1px;
+text-transform: uppercase;}
+
+ ul {list-style: none;
+   padding-left: 0px;
+   font-weight: bolder;}
+
+#izq {
+  width: 20%;
+  float: left;
+position: fixed;}
+
+.lista {
+  list-style: none;
+  padding: 0;
+}
+#der{
+  width:75%;
+  float: right;
+  margin-left: 5px;
+}
+.seccion{
+  background-color: white;
+  content: 20px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding: 35px;
+  margin: 10px;
+}
+
+#izq img {
+  border-radius: 35px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 5px;}
+
+#der2  {margin-top: 10px;
+  width: 65%;
+  float: right;
+  background-color: white;
+  border-style: double;
+  border-radius: 25px;}
